@@ -7,7 +7,7 @@ const { PORT = 5000 } = process.env;
 // You require the Express application that you exported.
 const app = require("./app");
 //This function will run when the server successfully starts.
-const listener = () => console.log(`Listening on Port ${PORT}!`);
+const listener = () => console.log(`Yo, we be listening on Port ${PORT}!`);
 /*
 The listen() method on your Express application is what 
 runs the server. It takes two arguments: a port number 
